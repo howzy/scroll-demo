@@ -10,6 +10,7 @@ const HomeDetail = () => import('@/pages/home-detail')
 
 export default new Router({
   mode: 'history',
+  base: 'scroll-demo',
   routes: [
     {
       path: '/',
